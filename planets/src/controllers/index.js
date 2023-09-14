@@ -1,8 +1,8 @@
 const { catcherAsync } = require("../utils/");
 
 module.exports = {
-	getCharacters: catcherAsync(require("./getCharacters")),
-	createCharacter: catcherAsync(require("./createCharacter")),
+	getPlanets: catcherAsync(require("./getPlanets")),
+	createPlanet: catcherAsync(require("./createPlanet")),
 	// deleteCharacters: require("./deleteCharacters"),
 	// updateCharacters: require("./updateCharacters"),
 };
