@@ -9,6 +9,7 @@ server.use(morgan("dev"));
 server.use(require("./routes"));
 
 server.use("*", (req, res) => {
+	console.log("EN ERROR DE LA RUTA");
 	res.status(404).send({
 		error: true,
 		message: "Not Found",

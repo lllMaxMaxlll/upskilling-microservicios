@@ -5,7 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
-		"dev": "node --watch index.js"
+		"dev": "node --watch index.js",
+		"docker build": "docker build -t characters .",
+		"docker run": "docker run -p 8001:8001 characters"
 	},
 	"keywords": [],
 	"author": "",
